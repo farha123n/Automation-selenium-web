@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="testCase.TC009_KeyboardEvent" />
+			<class name="testCase.TC006_Scroll" />
+			<class name="testCase.TC008_DragAndDrop" />
+			<class name="testCase.TC001_LocatorLearning" />
+
+			<class name="testCase.TC003_VerifyRadioAndCheckboxWithFrame" />
+			<class name="testCase.TC002_VerifyPageTitle" />
+			<class name="pom.batch.Batch8.AppTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
